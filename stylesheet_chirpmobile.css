@@ -1,0 +1,133 @@
+/*main styling (for mobile devices 350 and less)*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    margin: 0 10px;
+}
+
+
+nav {
+    list-style-type: none;
+    color: #69696a;
+    margin-top: 10px;
+}
+
+
+.maintext {
+    border-left: 2px solid #69696a;
+    color: #69696a;
+    padding-left: 15px;
+}
+
+
+.hire {
+    text-align: center;
+    background-color:#000;
+    color: #f9fafc;
+    border-radius: 25px;
+    line-height: 275%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0px;
+    }
+
+
+.button {
+    text-align: center;
+    background-color:#000;
+    color: #f9fafc;
+    border-radius: 25px;
+    width: 100%;
+    line-height: 275%;
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+
+#logo {
+    color: #000;
+}
+
+
+#shape {
+    display: none;
+}
+
+
+
+/*styling for devices under 768px*/
+@media only screen and (min-device-width : 768px) {
+    #top {
+    display: flex;  
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    }
+    
+    li {
+    display: inline;
+    padding: 8px 15px 8px 15px;
+    }
+        
+    .button {
+    text-align: center;
+    background-color:#000;
+    color: #f9fafc;
+    border-radius: 25px;
+    width: 15%;
+    line-height: 275%;
+    font-family: 'Open Sans', sans-serif;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    bottom: 0;
+    margin-top: 80px;
+    }
+    
+    nav {
+    margin-top: 0px;
+    }
+    
+    #pink {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    background-color: rgba(247, 136, 167, 0.6);
+    position: relative;
+    top: -50px;
+    right: 15%;   
+    }
+
+    #purple {
+    width: 160px;
+    height: 160px;
+    border-radius: 200px;
+    background-color: rgba(207, 130, 213, 0.6);
+    position: absolute;
+    top: 25%;
+    left: 85%;
+    }
+
+    #orange {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: rgba(247, 193, 162, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    }
+    
+    #middle {
+    display: flex;
+    align-items: flex-start;
+    }
+    
+    .maintext {
+    margin-right: 35px;
+}   
+}
+ 
